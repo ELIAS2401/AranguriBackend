@@ -6,5 +6,6 @@ export interface IInstrumento {
   precio: number;
   descripcion: string;
   imagen: string;
+  estado?: string;
   created_at?: string;
 }
